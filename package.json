@@ -1,0 +1,25 @@
+{
+  "name": "apollo-graphql-example",
+  "version": "1.0.0",
+  "description": "A example for apollo graphql with JavaScript",
+  "main": "index.js",
+  "type": "module" ,
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EndlessGr1ef/apollo-graphql-example.git"
+  },
+  "author": "EndlessGr1ef",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EndlessGr1ef/apollo-graphql-example/issues"
+  },
+  "homepage": "https://github.com/EndlessGr1ef/apollo-graphql-example#readme",
+  "dependencies": {
+    "apollo-server-koa": "^2.25.2",
+    "graphql": "^15.5.1",
+    "koa": "^2.13.1"
+  }
+}
